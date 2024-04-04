@@ -1,0 +1,17 @@
+#! /bin/bash
+
+echo "Starting your script now!"
+
+mkdir "SER"
+
+cd SER
+for var in {1..8}
+do
+  mkdir "week $var"
+done
+
+mkdir "Group Project"
+mkdir "Slides"
+mkdir "Submissions Repo"
+
+echo "All finished, thanks!"
